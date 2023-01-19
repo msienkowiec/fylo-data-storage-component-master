@@ -200,7 +200,8 @@ main {
     
     main {
         min-width: 33.5rem;
-        align-self: flex-end;        
+        align-self: flex-end;
+        padding: 1.25rem 2.4375rem 2.5rem;
     }
 
     .storage {
@@ -213,6 +214,17 @@ main {
         bottom: auto;
         left: auto;
         transform: translate(0, -100%);
+        
+        border-bottom-right-radius: 0;
+    }
+
+    .triangle {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 1.5rem 1.5rem 0;
+        border-color: transparent #ffffff transparent transparent;
+        margin-left: auto;
     }
 
     .storage > p {
